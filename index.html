@@ -28,7 +28,7 @@
             justify-content: space-between;
             align-items: flex-start;
             padding: 20px;
-            max-width: 1200px; /* Aumenté el ancho para acomodar más imágenes */
+            max-width: 1200px;
             margin: auto;
             background-color: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -39,42 +39,14 @@
             gap: 10px;
         }
         .side-image {
-            width: 150px; /* Ajusta el tamaño de las imágenes */
-            height: 150px; /* Ajusta el tamaño de las imágenes */
+            width: 150px;
+            height: 150px;
             object-fit: cover;
             border-radius: 10px;
         }
         .main-content {
             flex-grow: 1;
             padding: 20px;
-        }
-        h1, h2 {
-            color: #17202a;
-            text-align: center;
-        }
-        .services {
-            margin-bottom: 30px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .services table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        .services th, .services td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-        .services th {
-            background-color: #1587ce;
-            color: white;
-        }
-        .services tr:nth-child(even) {
-            background-color: #f2f2f2;
         }
         .contact {
             text-align: center;
@@ -99,22 +71,6 @@
             transition: 0.3s;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .contact a:hover {
-            background: #0056b3;
-            transform: scale(1.05);
-        }
-        .whatsapp-button {
-            background: #1587ce;
-        }
-        .whatsapp-button:hover {
-            background: #1587ce;
-        }
-        .whatsapp-icon {
-            width: 24px;
-            height: 24px;
-            margin-right: 10px;
-            filter: brightness(0) invert(1);
-        }
         footer {
             background-color: #333;
             color: white;
@@ -131,70 +87,32 @@
     </header>
 
     <div class="container">
-        <!-- Contenedor de imágenes izquierda -->
         <div class="side-images">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto1.png" alt="Imagen 1" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto2.jpg" alt="Imagen 2" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto3.jpg" alt="Imagen 3" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto4.jpg" alt="Imagen 4" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto5.jpg" alt="Imagen 5" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto6.jpg" alt="Imagen 6" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto7.jpg" alt="Imagen 7" class="side-image">
+            <img src="Foto1.png" alt="Imagen 1" class="side-image">
+            <img src="Foto2.jpg" alt="Imagen 2" class="side-image">
+            <img src="Foto3.jpg" alt="Imagen 3" class="side-image">
+            <img src="Foto4.jpg" alt="Imagen 4" class="side-image">
+            <img src="Foto5.jpg" alt="Imagen 5" class="side-image">
+            <img src="Foto6.jpg" alt="Imagen 6" class="side-image">
+            <img src="Foto7.jpg" alt="Imagen 7" class="side-image">
         </div>
 
         <div class="main-content">
-            <section class="services">
-                <h2>Nuestros Servicios y Tarifas</h2>
-                <table>
-                    <tr>
-                        <th>Servicio</th>
-                        <th>Precio</th>
-                    </tr>
-                    <tr><td>Prótesis Acrílica (1 pieza)</td><td>$25</td></tr>
-                    <tr><td>Prótesis Acrílica (2-3 piezas)</td><td>$35</td></tr>
-                    <tr><td>Prótesis Acrílica (4-6 piezas)</td><td>$40</td></tr>
-                    <tr><td>Prótesis Acrílica (7-9 piezas)</td><td>$45</td></tr>
-                    <tr><td>Prótesis Acrílica (Totales)</td><td>$60</td></tr>
-                    <tr><td>Férulas de bruxismo o miorelajante</td><td>$50</td></tr>
-                    <tr><td>Placa Hawley</td><td>$25</td></tr>
-                    <tr><td>Placa Hawley con tornillo</td><td>$35</td></tr>
-                    <tr><td>Mantenedor de espacio removible</td><td>$30</td></tr>
-                    <tr><td>Mantenedor de espacio fijo</td><td>$35</td></tr>
-                    <tr><td>Prótesis (Metal / Acrílico) 1 a 3 piezas</td><td>$85</td></tr>
-                    <tr><td>Prótesis (Metal / Acrílico) 4 a 6 piezas</td><td>$90</td></tr>
-                    <tr><td>Prótesis (Metal / Acrílico) 7 a 9 piezas</td><td>$95</td></tr>
-                    <tr><td>Prótesis Flexible (Acker Flex)</td><td>$40</td></tr>
-                    <tr><td>Prótesis Flex 2-4 piezas</td><td>$55</td></tr>
-                    <tr><td>Prótesis Flex 5-7 piezas</td><td>$80</td></tr>
-                    <tr><td>Prótesis Flex 8-10 piezas</td><td>$95</td></tr>
-                    <tr><td>Cubeta individual</td><td>$7</td></tr>
-                    <tr><td>Rodete de mordida</td><td>$3</td></tr>
-                    <tr><td>Férulas de acetato</td><td>$10</td></tr>
-                    <tr><td>Reparaciones</td><td>$10</td></tr>
-                    <tr><td>Agregar pieza</td><td>$7</td></tr>
-                    <tr><td>Rebase</td><td>$7</td></tr>
-                    <tr><td>Malla</td><td>$3</td></tr>
-                </table>
-            </section>
-
+            <h2>Nuestros Servicios y Tarifas</h2>
             <div class="contact">
                 <a href="tel:0978658051">📞 Llamar Ahora</a>
-                <a href="https://wa.me/593978658051" class="whatsapp-button">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
-                    WhatsApp
-                </a>
+                <a href="https://wa.me/593978658051" class="whatsapp-button">WhatsApp</a>
             </div>
         </div>
 
-        <!-- Contenedor de imágenes derecha -->
         <div class="side-images">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto8.jpg" alt="Imagen 8" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto9.png" alt="Imagen 9" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto10.jpg" alt="Imagen 10" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto11.jpg" alt="Imagen 11" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto12.jpg" alt="Imagen 12" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto13.jpg" alt="Imagen 13" class="side-image">
-            <img src="C:\Users\jpbb2\OneDrive\Desktop\ARCODENT\Fotos\Foto14.jpg" alt="Imagen 14" class="side-image">
+            <img src="Foto8.jpg" alt="Imagen 8" class="side-image">
+            <img src="Foto9.png" alt="Imagen 9" class="side-image">
+            <img src="Foto10.jpg" alt="Imagen 10" class="side-image">
+            <img src="Foto11.jpg" alt="Imagen 11" class="side-image">
+            <img src="Foto12.jpg" alt="Imagen 12" class="side-image">
+            <img src="Foto13.jpg" alt="Imagen 13" class="side-image">
+            <img src="Foto14.jpg" alt="Imagen 14" class="side-image">
         </div>
     </div>
 
